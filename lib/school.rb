@@ -1,4 +1,5 @@
 class School
+    ROSTER[grade] = {}
   
   def add_student(grade, student)
     @student = student
