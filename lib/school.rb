@@ -1,5 +1,8 @@
 class School
+  def initialize
     ROSTER = {}
+    
+  end
   
   def add_student(grade, student)
     @student = student
