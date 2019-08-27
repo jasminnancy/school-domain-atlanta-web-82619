@@ -10,4 +10,8 @@ class School
       ROSTER[grade] = []
     end
   end
+  
+  def grade(grade)
+    return ROSTER[grade]
+  end
 end
